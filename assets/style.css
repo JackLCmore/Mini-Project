@@ -1,0 +1,35 @@
+html{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+body{
+    position:relative;
+    margin:0;
+    padding:0;
+    background-color:yellow;
+}
+header{
+    position:fixed;
+    top:0;
+    z-index: 2;
+    width:100%;
+    height:10%;
+    border-bottom: 5px solid black;
+    background-color: lightblue;
+}
+li{
+    display:inline;
+    right: 50px;
+    z-index: 3;
+}
+main{
+    text-align:center;
+    padding-top:100px;
+}
+section {
+    position:relative;
+    top:40px;
+}
+img{
+    position:relative;
+    border:10px solid darkblue;
+}
